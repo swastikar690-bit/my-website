@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    min-height: 250vh;
+}
+.teeth{
+   background-color: rgb(255, 255, 255);
+    position: absolute;
+    height: 55%;
+    width: 100%;
+    top: 29%;
+}
+.yellowteeth{
+    position: absolute;
+    height: 40%;
+    top: 14%;
+    left: 2%;
+
+}
+.whiteteeth{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    height: 55%;
+    width: 14%;
+    top: 29%;
+    left: 53%;
+
+}
+.teetho{
+  position: absolute;
+    height: 40%;
+    top: 14%;
+    left: 22%;
+}
+.paragraph{
+background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 2%;
+    left: 32%;
+    height: 16%;
+    width: 35%;
+}
+.description{
+    position: absolute;
+    top: 17%;
+    left: 6%;
+}
+.paragraphone{
+    font-size: 7vh;
+    position: absolute;
+    top: 8%;
+    left: 13%;
+    color: rgb(5, 5, 99);
+}
+.boxleft{
+ position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 8%;
+    width: 11%;
+    top: 3%;
+    left: 7%;
+}
+.boxleft1{
+position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 8%;
+    width: 11%;
+    top: 3%;
+   left: 66%;
+}
+.boxright{
+   
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 8%;
+    width: 11%;
+    top: 3%;
+    left: 27%;
+}
+.boxright1{
+     position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 8%;
+    width: 11%;
+    top: 3%;
+   right: 6%;
+}
+.tokr{
+    position: absolute;
+     height: 40%;
+    top: 14%;
+    left: 59%;
+}
+.tokr1{
+     position: absolute;
+     height: 40%;
+    top: 14%;
+    right: 6%;
+}
+.teethcla{
+    position: absolute;
+    height: 56%;
+    top: 75%;
+    left: 2%;
+}
+.teethcla1{
+     position: absolute;
+    height: 56%;
+    top: 75%;
+    left: 25%;
+}
+.boxleft2{
+position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 8%;
+    width: 11%;
+    top: 72%;
+    left: 7%;
+}
+.boxright2{
+position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 8%;
+    width: 11%;
+    top: 72%;
+    left: 29%;
+}
+.po111{
+color: #1c1786;
+    font-size: 4vh;
+}
+.po121{
+color: #1c1786;
+    font-size: 4vh;
+}
+.po11{
+ color: #1c1786;
+    font-size: 4vh;
+}
+.po12{
+  color: #1c1786;
+    font-size: 4vh;
+}
+.po{
+      color: #1c1786;
+    font-size: 4vh;
+}
+.po1{
+       color: #1c1786;
+    font-size: 4vh;
+}
+.boxone{
+   position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 44%;
+    width: 100%;
+    top: 102%;
+}
+.paa{
+    color: rgb(3, 3, 67);
+    font-size: 5vh;
+    position: absolute;
+    left: 40%;
+}
+.para{
+   color: rgb(5, 34, 114);
+}
+.paa1{
+       position: absolute;
+    color: rgb(0, 0, 10);
+    /* text-align: center; */
+    left: 2%;
+    top: 26%;
+}
+.imageone{
+  position: absolute;
+    right: 1%;
+    height: 95%;
+    width: 33%;
+    top: 4%;
+}
+.emergency{
+   position: absolute;
+    top: 150%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 52%;
+}
+.paa2{
+    position: absolute;
+   color: rgb(5, 34, 114);
+    left: 38%;
+    font-size: 5vh;
+}
+.oloi{
+   position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    width: 35%;
+    left: 59%;
+    top: 73%;
+}
+.oloi1{
+    position: absolute;
+    height: 89%;
+}
+.oloi2{
+position: absolute;
+    height: 90%;
+    /* top: 14%; */
+    right: 0%;
+
+}
+.boxleft3{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 12%;
+    width: 11%;
+    left: 11%;
+    top: -16%;
+
+}
+.boxright3{
+position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 8%;
+    width: 11%;
+    left: 66%;
+    top: -15%;
+}
+.po1111{
+color: #1c1786;
+    font-size: 4vh;
+}
+.po1211{
+color: #1c1786;
+    font-size: 4vh;
+}
+.paaa2{
+position: absolute;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    width: 218px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: white;
+    left: 12%;
+    top: 18%;
+
+}
+.pao{
+  position: absolute;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    width: 13%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+   color: rgb(5, 34, 114);
+    top: 18%;
+    right: 35%;
+    height: 1%;
+}
+.pao:hover{
+    background-color: red;
+    color: white;
+}
+.pao1{
+    position: absolute;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    width: 13%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+   color: rgb(5, 34, 114);
+    top: 44%;
+    right: 35%;
+    height: 1%;
+}
+.pao1:hover{
+    background-color: red;
+    color: white;
+}
+.pao2{
+    position: absolute;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    width: 13%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: rgb(5, 34, 114);
+    top: 69%;
+    right: 35%;
+    height: 1%;
+}
+.pao2:hover{
+    background-color: red;
+    color: white;
+}
+.pic{
+   position: absolute;
+    top: 1%;
+    height: 94%;
+    left: 67%;
+    filter: opacity(0.3);
+}
+.picbox{
+   position: absolute;
+    left: 67%;
+    top: 45%;
+    /* background-color: red; */
+    height: 16%;
+    text-align: center;
+}
+.pico{
+       position: absolute;
+    left: 12%;
+    top: -6%;
+    /* background-color: red; */
+    height: 97%;
+    text-align: center;
+    filter: opacity(0.5);
+}
+.boll{
+   position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    width: 100%;
+    top: 205%;
+}
+.paraaa{
+    position: absolute;
+    font-size: 5vh;
+    left: 40%;
+    color: #1c1786;
+}
+.para5{
+    position: absolute;
+    color: blue;
+    text-align: center;
+    top: 25%;
+}
+.button1{
+   position: absolute;
+    top: 145%;
+    background-color: rgb(6, 6, 67);
+    color: white;
+    height: 47%;
+    width: 14%;
+    font-size: 2vh;
+    left: 40%;
+}
+.button1:active{
+    background-color: blue;
+    border: none;
+}

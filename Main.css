@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:white;
+    min-height: 300vh;
+    overflow-x:hidden
+}
+.hh{
+  
+    position: absolute;
+    height: 78%;
+    width: 38%;
+    left: 9%;
+}
+.paragra{
+   color: #05057a;
+    font-size: 7.5vh;
+    position: absolute;
+    color: white;
+    top: 17%;
+}
+.parag{
+   color: #05057a;
+    font-size: 2vh;
+    position: absolute;
+    color: white;
+}
+nav{
+      background-color: rgb(4, 4, 134);
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    padding: 15px 30px;
+    gap: 20px;
+    z-index: 1000;
+    width: 100%;
+    height: 10%;
+    justify-content: flex-end;
+
+}
+nav a{
+       text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-style: bold;
+    margin-left: 0;
+}
+.boxone{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 38%;
+    position: absolute;
+    top: 0%;
+    left: 62%;
+}
+.box-one{
+    background-color: blue;
+    height: 34%;
+    width: 72%;
+    position: absolute;
+    top: 13%;
+    left: 9%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: white;
+}
+.paragraph{
+    color: rgb(3, 3, 82);
+}
+.shorttext{
+       color: blue;
+    position: relative;
+    top: 22px;
+}
+
+.box-two{
+       background-color: green;
+    height: 25%;
+    width: 65%;
+    position: absolute;
+    top: 41%;
+    left: 9%;
+    background: rgb(86 49 49 / 0%);
+    border-radius: 15px;
+    padding: 30px;
+    width: 262px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(203 42 42 / 79%);
+    box-shadow: 0 8px 32px rgb(130 85 192 / 35%);
+    color: white;
+}
+.paragraphone{
+    color: rgb(3, 3, 82);
+}
+.shorttextone{
+       color: blue;
+    position: relative;
+    top: 22px;
+}
+.box-three{
+       background-color: yellow;
+    height: 20%;
+    width: 59%;
+    position: absolute;
+    top: 64%;
+    left: 9%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    width: 218px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: white;
+}
+.paragraphtwo{
+    color: rgb(3, 3, 82);
+}
+.shorttexttwo{
+     color: blue;
+    position: relative;
+    top: 22px;
+}
+.button-one{
+       background-color: #ffffff;
+    position: relative;
+    top: 30px;
+    border: none;
+    color: #0d107a;
+    background: transparent;
+}
+.button-one:hover{
+    background-color: #0d107a;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.image-one{
+       width: 62%;
+    position: center;
+    display: flex;
+    height: 85%;
+    position: relative;
+}
+.image-two{
+       position: relative;
+    height: 90%;
+    width: 81%;
+    left: 66px;
+}
+.boxtwo{
+       background: #ffffff;
+    /* border-radius: 15px; */
+    position: absolute;
+    top: 149%;
+    width: 100%;
+    height: 50%;
+}
+
+.scroll-container{
+  overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    border: 2px solid white;
+    padding: 20px 0;
+    position: absolute;
+    top: 111%;
+}
+
+.scroll-content{
+  display:inline-block;
+  animation:scroll 10s linear infinite;
+}
+
+.scroll-content span{
+  margin:0 40px;
+  font-size:24px;
+}
+
+@keyframes scroll{
+  from{
+    transform:translateX(0);
+  }
+  to{
+    transform:translateX(-50%);
+  }
+}
+.boxabout{
+       background-color: rgb(255, 255, 255);
+    position: absolute;
+    height: 100%;
+    width: 35%;
+}
+.paragraphabout{
+    font-size: 8vh;
+    color: #05057a;
+    font-family: serif;
+    padding: 20px;
+}
+.paragraphaboutone{
+    padding: 20px;
+}
+
+.imageabout{
+       position: absolute;
+    height: 89%;
+    right: 41%;
+}
+.boxthree{
+       position: absolute;
+    height: 35%;
+    width: 23%;
+    background-color: red;
+    right: 10%;
+    top: 32%;
+     background: rgb(86 49 49 / 0%);
+    border-radius: 15px;
+    padding: 30px;
+    width: 262px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(203 42 42 / 79%);
+    box-shadow: 0 8px 32px rgb(130 85 192 / 35%);
+    color: white;
+}
+
+.paraphAbout{
+    color: rgb(8, 8, 86);
+} 
+
+
+.LearnMore{
+    color: blue;
+}
+.highlightes{
+        position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 65%;
+    width: 100%;
+    top: 205%;
+
+}
+.imagedn{
+    position: absolute;
+    height: 105%;
+    width: 100%;
+    /* right: 10%; */
+    filter: blur(4px);
+    border: none;
+
+}
+.highlightsbox{
+     background-color: yellow;
+    height: 37%;
+    width: 59%;
+    position: absolute;
+    top: 13%;
+    left: 39%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 63px;
+    width: 218px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: white;
+}
+.paragraphhighlightes{
+   color: #0f0f5a;
+    font-size: 5vh;
+}
+.paragraphhighlightessub{
+    font-style: italic;
+    color: #1d07dc;
+}
+.footer-contact{
+    position: absolute;
+    top: 284%;
+    left: 3%;
+width: 100%;
+background-color: rgb(255, 255, 255);
+}
+.follow{
+    position: absolute;
+    right: 12%;
+}
+.follow span{
+    color: blue;
+}

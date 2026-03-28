@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    min-height: 300vh;
+    overflow-x: hidden;
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    height: 250%;
+    width: 100%;
+}
+.imageone{
+    position: absolute;
+    height: 36%;
+    width: 100%;
+    top: 12%;
+    filter: blur(5px);
+}
+.boxone{
+         position: absolute;
+    top: 22%;
+    height: 16%;
+    width: 19%;
+    left: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    /* width: 218px; */
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: white;
+}
+.boxfive{
+   position: absolute;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 40%;
+    width: 42%;
+}
+.imagetwo{
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.doctorone{
+          position: absolute;
+    color: #ffffff;
+    top: 23%;
+    font-size: 4vh;
+    left: 54%;
+}
+.experienceone{
+        position: absolute;
+    color: blue;
+    top: 66%;
+   
+    text-align: center;
+}
+.boxtwo{
+      background-color: red;
+    position: absolute;
+    top: 22%;
+    height: 16%;
+    width: 19%;
+    left: 25.5%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    /* width: 218px; */
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: white;
+}
+.boxsix{
+     position: absolute;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 40%;
+    width: 42%;
+}
+.imagethree{
+position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.doctortwo{
+ position: absolute;
+    color: #ffffff;
+    top: 23%;
+    font-size: 4vh;
+    left: 54%;
+}
+.experiencetwo{
+ position: absolute;
+    color: blue;
+    top: 66%;
+  
+    text-align: center;
+}
+.boxthree{
+ background-color: red;
+    position: absolute;
+    top: 22%;
+    height: 16%;
+    width: 19%;
+    left: 51%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    /* width: 218px; */
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: white;
+}
+.boxseven{
+     position: absolute;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 40%;
+    width: 42%;
+}
+.imagefour{
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.doctorthree{
+position: absolute;
+    color: #ffffff;
+    top: 23%;
+    font-size: 4vh;
+    left: 54%;
+}
+.experiencethree{
+ position: absolute;
+    color: blue;
+    top: 66%;
+  
+    text-align: center;
+
+}
+.boxfour{
+    background-color: red;
+    position: absolute;
+    top: 22%;
+    height: 16%;
+    width: 19%;
+    right: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    /* width: 218px; */
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: white;
+}
+.boxeight{
+ position: absolute;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 40%;
+    width: 42%;
+}
+.imagefive{
+     position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.doctorfour{
+position: absolute;
+    color: #ffffff;
+    top: 23%;
+    font-size: 4vh;
+    left: 54%;
+}
+.experiencefour{
+ position: absolute;
+    color: blue;
+    top: 66%;
+  
+    text-align: center;
+}
+.scroll-container{
+     overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    border: 2px solid white;
+    padding: 20px 0;
+    position: absolute;
+    top: 50%;
+    color: rgb(0, 0, 0);
+}
+
+.scroll-content{
+  display:inline-block;
+  animation:scroll 10s linear infinite;
+}
+
+.scroll-content span{
+  margin:0 40px;
+  font-size:24px;
+}
+
+@keyframes scroll{
+  from{
+    transform:translateX(0);
+  }
+  to{
+    transform:translateX(-50%);
+  }
+}
+.title{
+    position: absolute;
+    top: 9%;
+    font-size: 7vh;
+    left: 44%;
+}
+.paraa{
+  position: absolute;
+    top: 65%;
+    font-size: 7vh;
+    left: 44%;
+}
+.adultimage{
+    position: absolute;
+    height: 36%;
+    width: 100%;
+    top: 70%;
+    filter: blur(5px);
+    left: 0;
+}
+.boxonea{
+     position: absolute;
+    top: 71%;
+    height: 16%;
+    width: 19%;
+    left: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    /* width: 218px; */
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: white;
+}
+.boxfivea{
+   position: absolute;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 40%;
+    width: 42%;
+}
+.imagetwoa{
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.doctoronea{
+          position: absolute;
+    color: #ffffff;
+    top: 23%;
+    font-size: 4vh;
+    left: 54%;
+}
+.experienceonea{
+        position: absolute;
+    color: blue;
+    top: 66%;
+   
+    text-align: center;
+}
+.boxtwoa{
+      background-color: red;
+    position: absolute;
+    top: 71%;
+    height: 16%;
+    width: 19%;
+    left: 25.5%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    /* width: 218px; */
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: white;
+}
+.boxsixa{
+     position: absolute;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 40%;
+    width: 42%;
+}
+.imagethreea{
+position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.doctortwoa{
+ position: absolute;
+    color: #ffffff;
+    top: 23%;
+    font-size: 4vh;
+    left: 54%;
+}
+.experiencetwoa{
+ position: absolute;
+    color: blue;
+    top: 66%;
+  
+    text-align: center;
+}
+.boxthreea{
+ background-color: red;
+    position: absolute;
+   top: 71%;
+    height: 16%;
+    width: 19%;
+    left: 51%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    /* width: 218px; */
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: white;
+}
+.boxsevena{
+     position: absolute;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 40%;
+    width: 42%;
+}
+.imagefoura{
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.doctorthreea{
+position: absolute;
+    color: #ffffff;
+    top: 23%;
+    font-size: 4vh;
+    left: 54%;
+}
+.experiencethreea{
+ position: absolute;
+    color: blue;
+    top: 66%;
+  
+    text-align: center;
+
+}
+.boxfoura{
+    background-color: red;
+    position: absolute;
+    top: 71%;
+    height: 16%;
+    width: 19%;
+    right: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    /* width: 218px; */
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(216 100 100 / 79%);
+    box-shadow: 0 8px 32px rgb(3 3 3 / 42%);
+    color: white;
+}
+.boxeighta{
+ position: absolute;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 40%;
+    width: 42%;
+}
+.imagefivea{
+     position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.doctorfoura{
+position: absolute;
+    color: #ffffff;
+    top: 23%;
+    font-size: 4vh;
+    left: 54%;
+}
+.experiencefoura{
+ position: absolute;
+    color: blue;
+    top: 66%;
+  
+    text-align: center;
+}
+.button{
+          position: relative;
+    top: 44%;
+    border: none;
+    color: #ffffff;
+    background: #3317b5;
+    left: 42%;
+    height: 3%;
+    width: 10%;
+}
+.button:hover{
+    background-color: #0d107a;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.buttonone{
+          position: relative;
+    top: 97%;
+    border: none;
+    color: #ffffff;
+    background: #3317b5;
+    left: 37%;
+    height: 3%;
+    width: 10%;
+}
+.buttonone:hover{
+    background-color: #0d107a;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.mainheading{
+    font-size: 8vh;
+    position: absolute;
+    left: 40%;
+    top: 1%;
+    color: blue;
+}
+.boxten{
+   position: absolute;
+    top: 274%;
+    width: 100%;
+    height: 25%;
+    background-color:white;
+
+}
+.paraaaaa{
+  position: absolute;
+    top: 38%;
+    width: 100%;
+    height: 25%;
+    background-color: rgb(255 255 255);
+    font-size: 3vh;
+    text-align: center;
+    color: blue;
+}
+.boxbut{
+  background-color: #07166b;
+    font-size: 2.5vh;
+    position: absolute;
+    left: 45%;
+    color: blue;
+    top: 79%;
+    height: 19%;
+    width: 12%;
+    border: none;
+    color: white;
+}
+.boxbut:hover{
+    background-color: #3317b5;
+    border-radius: 10%;
+}
